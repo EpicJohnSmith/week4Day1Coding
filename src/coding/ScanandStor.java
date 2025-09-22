@@ -67,7 +67,8 @@ public class ScanandStor
         if (target >= 0 && target < presence.length)
         {
             return presence[target] == 1;
-        } else 
+        } 
+        else 
         {
             return false;
         }
@@ -81,7 +82,7 @@ public class ScanandStor
         System.out.println("Generated array: " + Arrays.toString(arr));
 
         int target1 = arr[0];  // definitely in the array
-        int target2 = 999;     // definitely NOT in the array
+        int target2 = 450;     // definitely NOT in the array
 
         // Test Scan
         System.out.println("Scan target1 (" + target1 + "): " + Scan(arr, target1));
